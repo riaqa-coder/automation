@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="2"
+            failures="1"
+            tests="16">
+
+  <testsuite name="first"
+    errors="2" failures="1" hostname="" id="" package="first" skipped="0"
+    tests="16" time="462.1" timestamp="">
+  
+    <testcase name="main test" classname="first" time="30.35" assertions="0">
+    </testcase>
+  
+    <testcase name=" first test(a) click test" classname="first" time="28.97" assertions="0">
+    </testcase>
+  
+    <testcase name="(b and c) work" classname="first" time="28.68" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="(b and c) about" classname="first" time="32.08" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="(b and c) careers" classname="first" time="28.81" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="(b and c) locations" classname="first" time="28.14" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="(b and c) contact" classname="first" time="30.58" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="(b and c) news" classname="first" time="29.24" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Second test cookies part 1" classname="first" time="36.09" assertions="0">
+    </testcase>
+  
+    <testcase name="Second test cookies part 2" classname="first" time="36.02" assertions="0">
+    </testcase>
+  
+    <testcase name="Second test on cookies 3" classname="first" time="37.68" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Third Test Location part (a)" classname="first" time="1.033" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Test location part(1)" classname="first" time="25.56" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Test location part(2)" classname="first" time="26.36" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Test loacation part (3)" classname="first" time="24.43" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Test location part(b)" classname="first" time="38.12" assertions="4">
+
+    
+
+    
+
+      <failure message="Testing if element &lt;#body &gt; footer &gt; div.location-list &gt; div &gt; div &gt; div:nth-child(6)&gt; is visible in 5000ms - expected &#34;is visible&#34; but got: &#34;not visible&#34; (5162ms)">    at Object.Test location part(b) (C:\Users\13164\Documents\qa_nightwatch\tests\first.js:165:27)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)</failure>
+
+    
+    <error message="Error while running &#34;visible&#34; command: Testing if element [0;33m&lt;#body &gt; footer &gt; div.location-list &gt; div &gt; div &gt; div:nth-child(6)&gt;[0m is visible in 5000ms - expected [0;32m&#34;is visible&#34;[0m but got: [0;31m&#34;not visible&#34;[0m [0;90m(5162ms)[0m" type="error"><![CDATA[
+        at Object.Test location part(b) (C:\Users\13164\Documents\qa_nightwatch\tests\first.js:165:27)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    ]]></error>
+    
+    </testcase>
+  
+
+  
+    <system-err>
+        TimeoutError: An error occurred while running .click() command on &lt;#body &gt; div.nav-wrapper.scroll &gt; nav &gt; ul &gt; li:nth-child(4) &gt; a&gt;:   (Session info: chrome=89.0.4389.90),  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Windows NT 10.0.19041 x86_64); element not interactable
+   {&#34;status&#34;:-1,&#34;state&#34;:&#34;&#34;,&#34;code&#34;:&#34;&#34;,&#34;value&#34;:{&#34;message&#34;:&#34;element not interactable&#34;,&#34;error&#34;:[&#34;  (Session info: chrome=89.0.4389.90)&#34;,&#34;  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Windows NT 10.0.19041 x86_64)&#34;]},&#34;errorStatus&#34;:11,&#34;error&#34;:&#34;An element command could not be completed because the element is not visible on the page. – element not interactable&#34;,&#34;httpStatusCode&#34;:200}
+       at processTicksAndRejections (internal/process/task_queues.js:93:5)
+  TimeoutError: An error occurred while running .click() command on &lt;#body &gt; div.nav-wrapper.scroll &gt; nav &gt; ul &gt; li:nth-child(4) &gt; ul &gt; li:nth-child(4) &gt; a&gt;:   (Session info: chrome=89.0.4389.90),  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Windows NT 10.0.19041 x86_64); element not interactable
+   {&#34;status&#34;:-1,&#34;state&#34;:&#34;&#34;,&#34;code&#34;:&#34;&#34;,&#34;value&#34;:{&#34;message&#34;:&#34;element not interactable&#34;,&#34;error&#34;:[&#34;  (Session info: chrome=89.0.4389.90)&#34;,&#34;  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Windows NT 10.0.19041 x86_64)&#34;]},&#34;errorStatus&#34;:11,&#34;error&#34;:&#34;An element command could not be completed because the element is not visible on the page. – element not interactable&#34;,&#34;httpStatusCode&#34;:200}
+       at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    </system-err>
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>
